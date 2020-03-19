@@ -26,7 +26,7 @@ cname=$(hostname -s)
 ts=$(date +%Y%m%d_%H%M%S)
 computername=$cname\_$ts
 foldername="LiveResponse"
-mkdir -p $foldername
+sudo mkdir -p $foldername
 printf "***** All commands run and (if applicable) any error messages *****\n" >> "$foldername/$foldername""_Processing_Details.txt"
 printf "OS Type: nix\n" >> "$foldername/$foldername""_Processing_Details.txt"
 printf "Computername: $cname\n" >> "$foldername/$foldername""_Processing_Details.txt"
