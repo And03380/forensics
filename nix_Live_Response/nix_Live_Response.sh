@@ -153,4 +153,5 @@ echo "Computing hashes of files"
 #LIST_OF_ALL_UPDATES
 #Version 1.1 - Changed typo preventing post processing file hashing to occur. Fixed typo adding "v" to filename
 #Version 1.0 - Initial compilation and release of nix data gathering
+sudo zip -r /usr/bin/memory_output.zip $computername
 exit
